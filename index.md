@@ -1,2 +1,1 @@
-#Test Header#
----
+redirect: /src/index.html

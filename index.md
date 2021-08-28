@@ -1,1 +1,1 @@
-redirect: /src
+[Home](/src/index.html)

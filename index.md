@@ -1,1 +1,1 @@
-redirect: /src/
+redirect: /src

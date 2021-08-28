@@ -19,15 +19,68 @@ body {
 
 }
 
-.airport {
+div {
+   display: flex;
+   flex-direction: row-reverse;
+ }
+
+.airport-container {
    background-image: url("car-service-miami-airport-1024x768cropped.jpg");
    background-color: #cccccc;
-   height: 400px;
+   height: 700px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   border: 3px solid #fff;
+   padding: 20px;
+}
+
+.airport-child {
+   width: 50%;
+   float: left;
+}
+
+.background-title {
+   text-emphasis-color: rgb(235, 66, 164);
+   text-align: left;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+}
+
+.map {
+   background-image: url("limofinder-map-miami-beach-1024x404cropped.jpg");
+   background-color: #cccccc;
+   height: 700px;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
    position: relative;
 }
+
+.map-text {
+   text-emphasis-color: rgb(252, 252, 252);
+}
+
+.white-background-one {
+   background-color: #ffffff;
+   height: 700px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+
+.white-background-one-text {
+   
+}
+
+/* .white-background-two {
+   background-color: #ffffff;
+} */
 
 
    

@@ -1,1 +1,1 @@
-redirect: /src/index.html
+redirect: /src/

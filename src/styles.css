@@ -21,7 +21,6 @@ body {
 
 div {
    display: flex;
-   flex-direction: row-reverse;
  }
 
 .airport-container {
@@ -36,13 +35,28 @@ div {
    padding: 20px;
 }
 
-.airport-child {
-   width: 50%;
+.airport-child-left {
+   flex: 0.5;
    float: left;
+   align-items: center;
+   justify-content: flex-end;
+   padding-right: 32px;
+}
+
+.airport-child-right {
+   flex: 0.5;
+   float: left;
+   align-items: center;
+   justify-content: flex-start;
+   padding-left: 32px;
 }
 
 .background-title {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
    text-emphasis-color: rgb(235, 66, 164);
+   text-align: center;
    text-align: left;
    position: absolute;
    top: 50%;
@@ -74,9 +88,17 @@ div {
    position: relative;
 }
 
-.white-background-one-text {
+button{
+   margin: 10px;
+ }
+ 
+ p{
+   margin: 10px;
+ }
+
+/* .white-background-one-text {
    
-}
+} */
 
 /* .white-background-two {
    background-color: #ffffff;

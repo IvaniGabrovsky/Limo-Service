@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 .right {
    text-align: right;
    float: right;
@@ -35,20 +38,91 @@ div {
    padding: 20px;
 }
 
-.airport-child-left {
+.airport-left {
    flex: 0.5;
    float: left;
    align-items: center;
    justify-content: flex-end;
    padding-right: 32px;
+   height: 300px;
 }
 
-.airport-child-right {
+.airport-right {
    flex: 0.5;
    float: left;
    align-items: center;
    justify-content: flex-start;
    padding-left: 32px;
+   height: 360px;
+}
+
+.child-left{
+   font-size: 40px;
+   font-family: 'Allerta Stencil', 'Courier New', Courier, monospace;
+}
+
+.child-right{
+   display: flex;
+   font-family: 'Roboto', 'Courier New', Courier, monospace;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+
+button{
+   height: 30px;
+   margin: 10px;
+}
+
+.white-text{
+   color: white;
+}
+
+.pink-text{
+   color: rgb(238, 166, 249);
+}
+
+.black-text{
+   color: black;
+}
+
+.grey-text{
+   color: grey;
+}
+
+.round-button{
+   border-radius: 16px;
+}
+
+.rectangle-button{
+   border-radius: 2px;
+}
+
+.red-button{
+   background-color: rgba(255,0,0,0.5);
+}
+
+.blue-button{
+   background-color: rgba(0,0,255,0.5);
+}
+
+.green-button{
+   background-color: green;
+}
+
+.white-button{
+   background-color: white;
+}
+
+.button-border-colour-white{
+   border-color: white;
+}
+
+.button-border-colour-black{
+   border-color: black;
+}
+ 
+p{
+   margin: 10px;
 }
 
 .background-title {
@@ -68,7 +142,8 @@ div {
 .map {
    background-image: url("limofinder-map-miami-beach-1024x404cropped.jpg");
    background-color: #cccccc;
-   height: 700px;
+   height: 700px; 
+   width: 100%;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -77,6 +152,24 @@ div {
 
 .map-text {
    text-emphasis-color: rgb(252, 252, 252);
+   width: 100%;
+   justify-content: center;
+}
+
+.map-body{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-end;
+   width: 100%;
+}
+
+.center-button{
+   justify-content: center;
+}
+
+.pink-background{
+   background-color: pink;
 }
 
 .white-background-one {
@@ -87,14 +180,6 @@ div {
    background-size: cover;
    position: relative;
 }
-
-button{
-   margin: 10px;
- }
- 
- p{
-   margin: 10px;
- }
 
 /* .white-background-one-text {
    

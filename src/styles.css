@@ -11,8 +11,6 @@
 }
 
 body {
-   /* background-image: url("car-service-miami-airport-1024x768cropped.jpg"), url("limofinder-map-miami-beach-1024x404.jpg"); */
-   /* background-position: 0 -40px; */
    margin: 0px;
    background-repeat: no-repeat, no-repeat;
    -webkit-background-size: cover;
@@ -81,6 +79,10 @@ button{
    color: rgb(238, 166, 249);
 }
 
+.purple-text{
+   color: rgb(176, 88, 211);
+}
+
 .black-text{
    color: black;
 }
@@ -129,7 +131,7 @@ p{
    display: flex;
    flex-direction: row;
    justify-content: center;
-   text-emphasis-color: rgb(235, 66, 164);
+   /* text-emphasis-color: rgb(235, 66, 164); */
    text-align: center;
    text-align: left;
    position: absolute;
@@ -154,13 +156,14 @@ p{
    text-emphasis-color: rgb(252, 252, 252);
    width: 100%;
    justify-content: center;
+   margin-bottom: 20px;
 }
 
 .map-body{
    display: flex;
    flex-direction: column;
-   justify-content: center;
-   align-items: flex-end;
+   align-items: center;
+   justify-content: flex-end;
    width: 100%;
 }
 
@@ -168,22 +171,45 @@ p{
    justify-content: center;
 }
 
-.pink-background{
-   background-color: pink;
+.violet-background{
+   background-color: rgb(250, 192, 255);
 }
 
-.white-background-one {
+.form-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
    background-color: #ffffff;
-   height: 700px;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   position: relative;
 }
 
-/* .white-background-one-text {
-   
-} */
+.text-for-title-of-form {
+   width: 100%;
+}
+
+.form-title{
+   margin: auto;
+   text-align: center;
+   flex-flow: column wrap;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 40px;
+}
+
+.margin-of-negative-5{
+   margin-bottom: -5px;
+}
+
+.roboto-font-family {
+   font-family: 'Roboto';
+}
+
+.arial-font-family {
+   font-family: 'Arial';
+}
+
+.font-size-22 {
+   font-size: 22px;
+}
 
 /* .white-background-two {
    background-color: #ffffff;

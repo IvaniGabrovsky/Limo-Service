@@ -115,6 +115,12 @@ div {
 }
 /*******************************************************************************/
 
+.main-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
 /*airport related classes*******************************************************/
 .airport-container {
    background-image: url("car-service-miami-airport-1024x768cropped.jpg");
@@ -192,7 +198,8 @@ div {
    display: flex;
    flex-wrap: wrap;
    height: 800px;
-   /* justify-content: flex-start; */
+   width: 100%;
+   justify-content: center;
    background-color: #ffffff;
 }
 
@@ -204,7 +211,6 @@ div {
    justify-content: center;
    margin-top: 40px;
    width: 100%;
-   border: solid 2px red;
 }
 
 .title-for-quote{
@@ -224,9 +230,9 @@ div {
    flex: 0.5;
    /* float: right; */
    align-items: flex-end;
-   justify-content: center;
+   justify-content: flex-start;
    padding-right: 32px;
-   height: 360px;
+   /* height: 360px; */
    border: solid 2px red;
 }
 
@@ -235,10 +241,10 @@ div {
    flex-direction:column;
    flex: 0.5;
    /* float: left; */
-   align-items: flex-end;
-   justify-content: center;
+   align-items: flex-start;
+   justify-content: flex-start;
    padding-left: 32px;
-   height: 360px;
+   /* height: 360px; */
    border: solid 2px red;
 }
 
@@ -271,7 +277,7 @@ div {
    justify-content: center;
    margin-top: 40px;
    width: 100%;
-   border: solid 2px red;
+   border: solid 2px blue;
 }
 /*******************************************************************************/
 

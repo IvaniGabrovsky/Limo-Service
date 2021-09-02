@@ -163,7 +163,7 @@ div {
 
 .form-left {
    flex: 0.5;
-   float: left;
+   float: right;
    align-items: center;
    justify-content: flex-end;
    padding-right: 32px;
@@ -180,8 +180,10 @@ div {
 }
 
 .title-for-quote{
-   font-size: 40px;
-   font-family: 'Allerta Stencil', 'Courier New', Courier, monospace;
+   display: flex;
+   font-family: 'Roboto', 'Courier New', Courier, monospace;
+   flex-direction: column;
+   justify-content: space-evenly;
 }
 
 .info-for-quote{
@@ -223,11 +225,11 @@ div {
    margin-bottom: -5px;
 }
 
-.roboto-font-family {
+.roboto-font {
    font-family: 'Roboto';
 }
 
-.arial-font-family {
+.arial-font {
    font-family: 'Arial';
 }
 

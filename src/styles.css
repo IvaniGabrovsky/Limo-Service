@@ -1,71 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Allerta Stencil&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-.right {
-   text-align: right;
-   float: right;
-}
-
-.rightHeading {
-   text-emphasis-color: rgb(0, 123, 255);
-}
-
-body {
-   margin: 0px;
-   background-repeat: no-repeat, no-repeat;
-   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-}
-
-div {
-   display: flex;
- }
-
-.airport-container {
-   background-image: url("car-service-miami-airport-1024x768cropped.jpg");
-   background-color: #cccccc;
-   height: 700px;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   position: relative;
-   border: 3px solid #fff;
-   padding: 20px;
-}
-
-.airport-left {
-   flex: 0.5;
-   float: left;
-   align-items: center;
-   justify-content: flex-end;
-   padding-right: 32px;
-   height: 300px;
-}
-
-.airport-right {
-   flex: 0.5;
-   float: left;
-   align-items: center;
-   justify-content: flex-start;
-   padding-left: 32px;
-   height: 360px;
-}
-
-.child-left{
-   font-size: 40px;
-   font-family: 'Allerta Stencil', 'Courier New', Courier, monospace;
-}
-
-.child-right{
-   display: flex;
-   font-family: 'Roboto', 'Courier New', Courier, monospace;
-   flex-direction: column;
-   justify-content: space-evenly;
-}
-
 button{
    height: 30px;
    margin: 10px;
@@ -115,11 +50,11 @@ button{
    background-color: white;
 }
 
-.button-border-colour-white{
+.white-button-border{
    border-color: white;
 }
 
-.button-border-colour-black{
+.black-button-border{
    border-color: black;
 }
  
@@ -127,11 +62,70 @@ p{
    margin: 10px;
 }
 
-.background-title {
+.right {
+   text-align: right;
+   float: right;
+}
+
+body {
+   margin: 0px;
+   background-repeat: no-repeat, no-repeat;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+div {
+   display: flex;
+ }
+
+.airport-container {
+   background-image: url("car-service-miami-airport-1024x768cropped.jpg");
+   background-color: #cccccc;
+   height: 700px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   border: 3px solid #fff;
+   padding: 20px;
+}
+
+.airport-left {
+   flex: 0.5;
+   float: left;
+   align-items: center;
+   justify-content: flex-end;
+   padding-right: 32px;
+   height: 300px;
+}
+
+.airport-right {
+   flex: 0.5;
+   float: left;
+   align-items: center;
+   justify-content: flex-start;
+   padding-left: 32px;
+   height: 360px;
+}
+
+.website-title{
+   font-size: 40px;
+   font-family: 'Allerta Stencil', 'Courier New', Courier, monospace;
+}
+
+.reservations-and-quotes{
+   display: flex;
+   font-family: 'Roboto', 'Courier New', Courier, monospace;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+
+/* .background-title {
    display: flex;
    flex-direction: row;
    justify-content: center;
-   /* text-emphasis-color: rgb(235, 66, 164); */
    text-align: center;
    text-align: left;
    position: absolute;
@@ -139,7 +133,7 @@ p{
    left: 50%;
    transform: translate(-50%, -50%);
    color: white;
-}
+} */
 
 .map {
    background-image: url("limofinder-map-miami-beach-1024x404cropped.jpg");
@@ -165,6 +159,36 @@ p{
    align-items: center;
    justify-content: flex-end;
    width: 100%;
+}
+
+.form-left {
+   flex: 0.5;
+   float: left;
+   align-items: center;
+   justify-content: flex-end;
+   padding-right: 32px;
+   height: 300px;
+}
+
+.form-right {
+   flex: 0.5;
+   float: left;
+   align-items: center;
+   justify-content: flex-start;
+   padding-left: 32px;
+   height: 360px;
+}
+
+.title-for-quote{
+   font-size: 40px;
+   font-family: 'Allerta Stencil', 'Courier New', Courier, monospace;
+}
+
+.info-for-quote{
+   display: flex;
+   font-family: 'Roboto', 'Courier New', Courier, monospace;
+   flex-direction: column;
+   justify-content: space-evenly;
 }
 
 .center-button{
@@ -195,7 +219,7 @@ p{
    margin-top: 40px;
 }
 
-.margin-of-negative-5{
+.margin-negative-5{
    margin-bottom: -5px;
 }
 
@@ -211,7 +235,11 @@ p{
    font-size: 22px;
 }
 
-/* .white-background-two {
+.font-size-10 {
+   font-size: 10px;
+}
+
+/* .transportation options{
    background-color: #ffffff;
 } */
 

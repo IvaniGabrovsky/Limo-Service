@@ -13,6 +13,10 @@ button{
    color: white;
 }
 
+.greyish-white-text{
+   color: rgba(255, 255, 255, 0.823);
+}
+
 .pink-text{
    color: rgb(238, 166, 249);
 }
@@ -187,6 +191,7 @@ div {
 .form-container{
    display: flex;
    flex-wrap: wrap;
+   height: 800px;
    /* justify-content: flex-start; */
    background-color: #ffffff;
 }
@@ -218,18 +223,20 @@ div {
    flex-direction:column;
    flex: 0.5;
    /* float: right; */
-   align-items: flex-start;
+   align-items: flex-end;
    justify-content: center;
    padding-right: 32px;
-   height: 300px;
+   height: 360px;
    border: solid 2px red;
 }
 
 .form-right {
+   display: flex;
+   flex-direction:column;
    flex: 0.5;
-   float: left;
-   align-items: center;
-   justify-content: flex-start;
+   /* float: left; */
+   align-items: flex-end;
+   justify-content: center;
    padding-left: 32px;
    height: 360px;
    border: solid 2px red;
@@ -240,6 +247,31 @@ div {
    font-family: 'Roboto', 'Courier New', Courier, monospace;
    flex-direction: column;
    justify-content: space-evenly;
+}
+/*******************************************************************************/
+
+/*direction related classes*******************************************************/
+.direction-container {
+   background-image: url("car-service-miami-to-miami-airportcropped.jpg");
+   background-color: #cccccc;
+   height: 200px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   border: 3px solid #fff;
+   padding: 20px;
+}
+
+.direction-title{
+   margin: auto;
+   text-align: center;
+   flex-flow: column wrap;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 40px;
+   width: 100%;
+   border: solid 2px red;
 }
 /*******************************************************************************/
 
@@ -270,7 +302,13 @@ div {
 /*******************************************************************************/
 
 /*transportation related classes*******************************************************/
-/* .transportation options{
+/* .transportation-options{
    background-color: #ffffff;
 } */
+/*******************************************************************************/
+
+/*input for textbox*******************************************************/
+.one-line-text-box{
+   height: 25px;
+}
 /*******************************************************************************/

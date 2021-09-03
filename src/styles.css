@@ -54,7 +54,8 @@ button{
 }
 
 .green-button{
-   background-color: green;
+   background-color: rgb(17, 193, 8);
+   border: solid 1px rgb(17, 193, 8);
 }
 
 .white-button{
@@ -62,7 +63,13 @@ button{
 }
 /*******************************************************************************/
 
-/*button boarder colour*******************************************************/
+/*image demesions*******************************************************/
+.image-400-by-400{
+   width: 400px;
+   height: auto;
+}
+
+/*button border colour*******************************************************/
 .white-button-border{
    border-color: white;
 }
@@ -242,7 +249,7 @@ div {
    flex: 0.5;
    /* float: left; */
    align-items: flex-start;
-   justify-content: flex-start;
+   justify-content: space-between;
    padding-left: 32px;
    /* height: 360px; */
    border: solid 2px red;
@@ -280,10 +287,36 @@ div {
    border: solid 2px blue;
 }
 /*******************************************************************************/
+/*services related classes*******************************************************/
+.services-container{
+   display: flex;
+   flex-wrap: wrap;
+   height: 800px;
+   width: 100%;
+   justify-content: center;
+   background-color: #ffffff;
+}
+
+.services-title{
+   margin: auto;
+   text-align: center;
+   flex-flow: column wrap;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 40px;
+   width: 100%;
+}
+
+
+/*******************************************************************************/
 
 /*margin size*******************************************************/
 .margin-negative-5{
    margin-bottom: -5px;
+}
+
+.margin-negative-10{
+   margin-bottom: -10px;
 }
 /*******************************************************************************/
 
@@ -316,5 +349,17 @@ div {
 /*input for textbox*******************************************************/
 .one-line-text-box{
    height: 25px;
+   width: 400px;
+}
+
+.multi-line-text-box{
+   height: auto;
+   width: 400px;
+}
+/*******************************************************************************/
+
+/*alignment*******************************************************/
+.right-alignment{
+   align-self: flex-start;
 }
 /*******************************************************************************/

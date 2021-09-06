@@ -284,14 +284,13 @@ div {
    justify-content: center;
    margin-top: 40px;
    width: 100%;
-   border: solid 2px blue;
 }
 /*******************************************************************************/
 /*services related classes*******************************************************/
 .services-container{
    display: flex;
    flex-wrap: wrap;
-   height: 800px;
+   height: 600px;
    width: 100%;
    justify-content: center;
    background-color: #ffffff;
@@ -311,26 +310,24 @@ div {
    display: flex;
    flex-direction:column;
    flex: 0.5;
-   /* float: right; */
    align-items: flex-end;
-   justify-content: flex-start;
    padding-right: 32px;
-   /* height: 360px; */
-   border: solid 2px red;
 }
 
 .services-right {
    display: flex;
    flex-direction:column;
    flex: 0.5;
-   /* float: left; */
    align-items: flex-start;
-   justify-content: space-between;
    padding-left: 32px;
-   /* height: 360px; */
-   border: solid 2px red;
 }
 
+.services-items {
+   display: flex;
+   flex-direction:column;
+   align-items: center;
+   margin-bottom: 50px;
+}
 
 
 /*******************************************************************************/

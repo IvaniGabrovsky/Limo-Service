@@ -307,6 +307,31 @@ div {
    width: 100%;
 }
 
+.services-left {
+   display: flex;
+   flex-direction:column;
+   flex: 0.5;
+   /* float: right; */
+   align-items: flex-end;
+   justify-content: flex-start;
+   padding-right: 32px;
+   /* height: 360px; */
+   border: solid 2px red;
+}
+
+.services-right {
+   display: flex;
+   flex-direction:column;
+   flex: 0.5;
+   /* float: left; */
+   align-items: flex-start;
+   justify-content: space-between;
+   padding-left: 32px;
+   /* height: 360px; */
+   border: solid 2px red;
+}
+
+
 
 /*******************************************************************************/
 

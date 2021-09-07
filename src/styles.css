@@ -306,6 +306,11 @@ div {
    width: 100%;
 }
 
+.services-center{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
 .services-left {
    display: flex;
    flex-direction:column;
@@ -329,6 +334,22 @@ div {
    margin-bottom: 50px;
 }
 
+.centered-container{
+   display: flex;
+   justify-content: center;
+}
+.extras-container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   width: 60%;
+}
+.extras-item{
+   flex: 0 32%;
+   height: 100px;
+   margin-bottom: 2%;
+   border: solid 2px blueviolet;
+}
 
 /*******************************************************************************/
 
